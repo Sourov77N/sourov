@@ -3,7 +3,32 @@ body{
 }
 
 .d{
+    
     width: 300px;
     height: 80px;
     word-wrap: break-word;
 }
+.float{
+    width: 960px;
+    margin: 0 auto;
+    
+    display: inline-block;
+}
+.bor{
+    float: left;
+    background: pink;
+    width: 400px;
+    word-wrap: break-word;
+    border: 2px solid goldenrod;
+    border-radius: 5px;
+}
+.bou{
+    margin-left: 10px;
+    float: left;
+    background: pink;
+    width: 400px;
+    word-wrap: break-word;
+    border: 2px solid goldenrod;
+    border-radius: 5px;
+}
+
